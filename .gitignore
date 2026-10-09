@@ -1,0 +1,34 @@
+# Entorn local i dependències
+vendor/
+node_modules/
+
+# Fitxers de configuració d'entorn i credencials sensibles
+.env
+.env.local
+.env.*.local
+*.secret
+config.local.php
+
+# IDE i editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*.tmp
+
+# Fitxers de sistema operatiu
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Logs del servidor i cache
+*.log
+logs/
+cache/
+tmp/
